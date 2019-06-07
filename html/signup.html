@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>회원가입</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/signup.css">
+    </head>
+    <body>
+        <h2>회원가입</h2>
+        <p>festival에 회원가입하기</p>
+        <hr>
+        <div class="container">
+          <form action="../php/signup.php" method="post">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">이메일</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="email" placeholder="User email..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">이름</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="uname" placeholder="User name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">비밀번호</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="pwd" placeholder="Password..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">전화번호</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="telno" placeholder="Mobile..">
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+    </body>
+</html>
